@@ -1,9 +1,76 @@
+body {
+	background-color:#F6F6F6;
+	background-size: 100% 675px;
+	background-repeat: no-repeat;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font: normal 100%/1.4 sans-serif;
+	background-image: url(../img/15.jpg);
+}
+
+#menu h1 {
+	color: white;
+	
+}
+
+
+
+
+#tecnica{
+	margin-top: 3px;
+}
+#home {
+	width: 100%;
+	height: 105px;
+	background-color:black;
+	opacity: 0.8;
+	}
+	
+#start {
+	margin-top: 231px;
+	margin-left:100px;
+	width: 500px;
+	height: 500px;
+	border: solid black 1px;
+	background-color: white;
+}
+
+#teoria{
+	margin-top: 231px;
+	margin-left:100px;
+	width: 700px;
+	height: 100px;
+	border: solid black 1px;
+	background-color: white;
+	
+}
+#anuncio{
+	padding:50px;
+	margin-top:-99px;
+	margin-left:800px;
+	width: 100px;
+	height: 500px;
+	border: solid black 1px;
+	background-color: white;
+}
 /*CELULAR E TABLET*/
 @media screen and (min-width: 1px) and (max-width: 1024px) {
 	p {
 		color: red;
 	}
+	
+
 	/****MENU*****/
+	#flip h2:HOVER {
+		background-color: black;
+		color: white;
+		width: 75px;
+	}
+	#flip h2 {
+		color: black;
+		margin-left: 75%;
+	}
 	#panel {
 		padding: 5px;
 		text-align: center;
@@ -39,10 +106,9 @@
 		color: #333333;
 	}
 	#panel ul {
-		margin-left: -29px;
+		margin-left: -67px;
 		margin-right: -28px;
 		margin-top: -30px;
-		margin-bottom: -30px;
 	}
 
 	/*oculta o menu*/
@@ -54,16 +120,94 @@
 
 /*TABLET*/
 @media screen and (min-width: 481px) and (max-width: 1024px) {
+	/*BANER*/
+#imgDeskTop{
+	background-size: 100%;
+	height:500px;	
+	margin-top: 20px;
+	
+	background-repeat: no-repeat;
+}/*FINAL BANER*/
 } /*FINAL TABLET*/
 
 /*DESK TOP*/
 @media
-screen
-and
-(min-width:1025px)
-{
+screen and (min-width:1025px) {
 
 /***MENU DESKTOP**/
+
+	/*BOX INDEX*/
+	#box1{
+	width: 333px;
+	height: 220px;
+	background-color:#e4e4e4;
+	margin-top: -150px;
+	padding: 5px;
+	text-align:left;
+	}
+	#box2{
+	width: 333px;
+	height: 220px;
+	background-color:#e4e4e4;
+	margin-top: -230px;
+	margin-left:39%;
+	padding: 5px;
+	text-align:left;}
+	#box3{
+	width: 333px;
+	height: 220px;
+	background-color:#e4e4e4;
+	margin-top: -230px;
+	margin-left:73.5%;
+	padding: 5px;
+	text-align:left;}
+	/*FINAL BOX INDEX*/
+/*BANER*/
+#imgDeskTop{
+	background-size: 100%;
+	height:500px;	
+	margin-top: 20px;
+	background-image: url(../img/);
+	background-repeat: no-repeat;
+}
+
+
+#txt {
+	color: white;
+	font-size:30px;
+	width: 910px;
+	height: 100px;
+	background-color: black;
+	opacity: 0.8;
+	margin-left: 15%;
+	margin-top: -350px;
+}
+#btn h3 {
+	
+	margin-top: 110px;
+	margin-left: 48%;
+	color: white;
+}
+
+#btn a {
+	
+	text-decoration:none
+}
+
+#btn2{
+	width: 100px;
+	height: 50px;	
+	background-color: #5eadad;
+	border-radius:5px;
+	margin-top: -58px;
+	margin-left: 47%;
+	
+}
+
+
+
+/*FINAL BANER*/
+
 @font-face {
 	font-family: myFirstFont;
 	src: url(sansation_light.woff);
@@ -71,12 +215,11 @@ and
 
 #flip {
 	width: 100%;
-	height: 100px;
-	background-color: black;
+	height: 100px;	
 }
 
 #ulMenu {
-	margin-right: 350px;
+	margin-right: -5px;
 }
 
 #abc {
@@ -126,8 +269,8 @@ and
 }
 
 #menu li a:hover {
-	color: black;
-	background-color: white;
+	color:white;
+	background-color:#5eadad;
 	height: 45px;
 	margin-top: -12px;
 	height: 47px;
@@ -138,7 +281,7 @@ and
 /*OCULTA MENU*/
 #panel {
 	display: none;
-	margin-top: -500px;
+	margin-top: -800px;
 }
 
 #a {
