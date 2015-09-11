@@ -1,74 +1,86 @@
+
 body {
-	background-color:#F6F6F6;
+	background-color:#eeeeee;
 	background-size: 100% 675px;
 	background-repeat: no-repeat;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	font: normal 100%/1.4 sans-serif;
-	background-image: url(../img/15.jpg);
+	background-image: url(../img/16.png);
 }
 
-#menu h1 {
+section {
+	margin-top:310px;
+	width: 100%;
+	height: 4000;
+	background-color:eeeeee;
+}
+
+article   {
+	width: 100%;
+	height: 550px;
+	background-color:white;
+	margin-top: 5px;
+	border-radius: 8px;
+	text-align: justify;
+	padding: 1px;
+	color: #aaaaaa;
+
+}
+
+/*CELULAR*/
+@media screen and (min-width: 1px) and (max-width: 1150px) {
+	body {	
+	background-image: url(../img/17.png);
+}
+
+/*CONTANT*/
+
+
+
+
+/*FIM CONTANT*/
+/*LOGO */
+#logo h1 {
+	margin-top: 5px;
+	font-size: 25px;
+	color: white;
+}
+#a {
+	margin-top: -125px;
 	color: white;
 	
 }
+/*FIM LOGO*/
+#txt h2 ,h3 {
+	color:white;
+	margin-top: 120px;
+	margin-left: 70px;
+	font-size: 30px;
+	}
 
-
-
-
-#tecnica{
-	margin-top: 3px;
-}
-#home {
-	width: 100%;
-	height: 105px;
-	background-color:black;
-	opacity: 0.8;
+#txt h3 {
+	font-size: 20px;
+	margin-top: 90px;
+	margin-left: 100px;
 	}
 	
-#start {
-	margin-top: 231px;
-	margin-left:100px;
-	width: 500px;
-	height: 500px;
-	border: solid black 1px;
-	background-color: white;
-}
-
-#teoria{
-	margin-top: 231px;
-	margin-left:100px;
-	width: 700px;
-	height: 100px;
-	border: solid black 1px;
-	background-color: white;
-	
-}
-#anuncio{
-	padding:50px;
-	margin-top:-99px;
-	margin-left:800px;
-	width: 100px;
-	height: 500px;
-	border: solid black 1px;
-	background-color: white;
-}
-/*CELULAR E TABLET*/
-@media screen and (min-width: 1px) and (max-width: 1024px) {
-	p {
-		color: red;
+	#txt a{
+	color: white;
+	text-decoration:none; 
+	font-size: 25px;
+	margin-left:-15px;
 	}
+/****MENU*****/
 	
-
-	/****MENU*****/
 	#flip h2:HOVER {
-		background-color: black;
-		color: white;
+		background-color:white;
+		color:#660202;
 		width: 75px;
 	}
 	#flip h2 {
-		color: black;
+		color:white;
 		margin-left: 75%;
 	}
 	#panel {
@@ -78,6 +90,9 @@ body {
 		padding: 28px;
 		display: none;
 		height: 157px;
+		background-color: #660202;
+		opacity:0.8;
+		
 	}
 	#panel li {
 		list-style-type: none;
@@ -113,113 +128,89 @@ body {
 
 	/*oculta o menu*/
 	#flip ul li {
-		margin-top: -100px;
+		margin-top: -300px;
 		float: left;
 	}
-} /*FINAL CELULAR E TABLET*/
+} 
 
-/*TABLET*/
+/* TABLET*/
+
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-	/*BANER*/
-#imgDeskTop{
-	background-size: 100%;
-	height:500px;	
-	margin-top: 20px;
+	body {	
+	background-image: url(../img/16.png);
+}
+
+#logo h1{
+	color: black;
+	margin-left:40%;
+}
+#txt h2{
+	margin-left:19%;
+	margin-top: 200px;
+	color: white;
 	
-	background-repeat: no-repeat;
-}/*FINAL BANER*/
-} /*FINAL TABLET*/
-
-/*DESK TOP*/
-@media
-screen and (min-width:1025px) {
-
-/***MENU DESKTOP**/
-
-	/*BOX INDEX*/
-	#box1{
-	width: 333px;
-	height: 220px;
-	background-color:#e4e4e4;
-	margin-top: -150px;
-	padding: 5px;
-	text-align:left;
+}
+#txt a{
+	margin-left:38%;
+	margin-top: 200px;
+	color: white;
+	font-size: 20px;
+	
+}
+#flip h2 {
+		
+		margin-left: 70%;
+		margin-top:-30px;
 	}
-	#box2{
-	width: 333px;
-	height: 220px;
-	background-color:#e4e4e4;
-	margin-top: -230px;
-	margin-left:39%;
-	padding: 5px;
-	text-align:left;}
-	#box3{
-	width: 333px;
-	height: 220px;
-	background-color:#e4e4e4;
-	margin-top: -230px;
-	margin-left:73.5%;
-	padding: 5px;
-	text-align:left;}
-	/*FINAL BOX INDEX*/
-/*BANER*/
-#imgDeskTop{
-	background-size: 100%;
-	height:500px;	
-	margin-top: 20px;
-	background-image: url(../img/);
-	background-repeat: no-repeat;
+	#panel ul li a {
+		
+		width: 100%;
+		}
+		
+		#panel {
+		width: 350px;
+		margin-left: 197px;
+		}
 }
 
-
-#txt {
-	color: white;
-	font-size:30px;
-	width: 910px;
-	height: 100px;
-	background-color: black;
-	opacity: 0.8;
-	margin-left: 15%;
-	margin-top: -350px;
-}
-#btn h3 {
-	
-	margin-top: 110px;
-	margin-left: 48%;
-	color: white;
+/*DESKTOP*/
+@media screen and (min-width: 1030px) and (max-width:1500px) {
+	body {	
+	background-image: url(../img/16.png);
 }
 
-#btn a {
-	
-	text-decoration:none
-}
-
-#btn2{
-	width: 100px;
-	height: 50px;	
-	background-color: #5eadad;
-	border-radius:5px;
-	margin-top: -58px;
-	margin-left: 47%;
-	
-}
-
-
-
-/*FINAL BANER*/
-
-@font-face {
+	@font-face {
 	font-family: myFirstFont;
 	src: url(sansation_light.woff);
 }
+#txt a {
+	color: white;
+	text-decoration: none;
+	margin-left: 550px;
+}
+#txt2 {
+	margin-left:19%;
+	margin-top:287px;
+	color: white;
+	font-size:295%;
+	
+}
+/*LOGO*/
+#logo h1 {
+	margin-left:43%;
+	margin-top: 10px;
+	
+}
 
+/*FIM LOGO*/
+/*MENU*/
 #flip {
 	width: 100%;
 	height: 100px;	
 }
 
 #ulMenu {
-	margin-right: -5px;
+	margin-right:290px;
 }
 
 #abc {
@@ -240,7 +231,7 @@ screen and (min-width:1025px) {
 	list-style-type: none;
 	float: right;
 	padding: 10px;
-	margin-top: -5px;
+	margin-top: 180px;/*posição do menu*/
 	/*border-right: solid 2px white;**/
 	height: 41px;
 }
@@ -285,7 +276,10 @@ screen and (min-width:1025px) {
 }
 
 #a {
-	margin-top: -50px;
+	margin-top: -300px;
 }
 /*FIM OCULTA MENU*/
-} /*FINAL DESKTOP*/
+
+	}
+
+
