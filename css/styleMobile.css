@@ -1,0 +1,13 @@
+/*CELULAR*/
+@media screen and (min-width: 1px) and (max-width: 700px) {
+	
+	p {
+	color: pink;
+	}
+	body {
+	
+	background-image: url(../img/17.png);
+}
+
+	}
+

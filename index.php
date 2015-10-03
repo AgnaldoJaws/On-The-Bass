@@ -4,7 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Layout Fixo</title>
-<link href="css/style.css" rel="stylesheet" />
+<link href="css/styleGeral.css" rel="stylesheet" />
+<link href="css/styleMobile.css" rel="stylesheet" />
+<link href="css/styleTablet.css" rel="stylesheet" />
+<link href="css/styleDeskTop.css" rel="stylesheet" />
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +15,9 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-
+</head>
 <body>
-
+<p> Agnaldo </p>
 	<div id="logo">
 		<h1>On The Bass</h1>
 		
@@ -63,7 +66,7 @@
 	
 
 	<div id="txt">
-		<h2 id="txt2">O site do baixista moderno!</h2>
+		<h2 id="txt2"> O site do baixista moderno!</h2>
 		<h3>
 			<a href="#start" data-scrooll>LET'S GO</a>
 		</h3>
@@ -77,7 +80,7 @@
 
 		<article id="start">
 			<h2>
-				<center>Start</center>
+				Start
 				
 			</h2>
 			

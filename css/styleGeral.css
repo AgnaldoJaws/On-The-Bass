@@ -1,0 +1,30 @@
+body {
+	background-color:#eeeeee;
+	background-size: 100% 675px;
+	background-repeat: no-repeat;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font: normal 100%/1.4 sans-serif;
+	background-image: url(../img/18.png);
+}
+
+section {
+	margin-top:310px;
+	width: 100%;
+	height: 4000;
+	background-color:eeeeee;
+}
+
+article   {
+	width: 100%;
+	height: 550px;
+	background-color:white;
+	margin-top: 5px;
+	border-radius: 8px;
+	text-align: justify;
+	padding: 1px;
+	color: #aaaaaa;
+
+}
+
